@@ -8,3 +8,4 @@ comment on table customers is e'details of the people placing orders';
 comment on column customers.full_name is e'what this customer is called';
 comment on column customers.customer_id is e'auto-incrementing primary key';
 comment on column customers.email_address is e'the email address the person uses to access the account';
+--rob was here
