@@ -1,3 +1,6 @@
+set search_path = public;
+create extension if not exists postgis;
+
 set search_path = oe;
 create table customers (
 	customer_id integer not null,
